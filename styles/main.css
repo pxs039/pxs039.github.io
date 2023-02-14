@@ -1,8 +1,19 @@
+html {
+    background-image: linear-gradient(to bottom, white, #fac8da);
+}
+
 body{
     font-family: Arial,Arial, Helvetica, sans-serif;
     font-size: 100%;
-    margin-left: 10px;
+    width: 1000px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
 }
+
 
 a:focus, a:hover {
     font-style: italic;
@@ -34,8 +45,26 @@ main {
 
 }
 main h3 {
-    margin-top: 3em;
+    margin: 3em 2em 1.5em;
     font-size: 105%;
+    border: 5px double blue;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+}
+
+main nav {
+    margin: 1.5em 2em 1.5em;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+}
+
+div.contact {
+    margin: 1.5em 2em 0 2em;
+    border: 5px dotted blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px;
+    padding: 1em;
 }
 
 #list {
