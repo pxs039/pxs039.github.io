@@ -37,6 +37,10 @@ header h2 {
 header img {
     float: left;
 }
+header {
+    clear: both;
+    border-top: 2px solid maroon;
+}
 
 .shadow {
     text-shadow: 2px 2px 2px rgb(128,0,0);
