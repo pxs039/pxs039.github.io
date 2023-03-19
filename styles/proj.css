@@ -22,12 +22,6 @@ a:focus, a:hover {
     border-style: dotted solid;
 }
 
-header h1 {
-    font-size: 175%;
-    color: maroon;
-    text-indent: 30px;
-}
-
 header h2 {
     font-size: 130%;
     color: #800000;
@@ -36,6 +30,11 @@ header h2 {
 
 header img {
     float: left;
+}
+header h1 {
+    font-size: 175%;
+    color: maroon;
+    text-indent: 30px;
 }
 header {
     clear: both;
