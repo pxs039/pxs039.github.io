@@ -1,36 +1,105 @@
+/* Menu bar styles */
 #nav_menu ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
 }
-#nav_menu ul li { 
-    float: left; 
+
+#nav_menu li {
+    float: left;
 }
-#nav_menu ul li a {
-    text-align: center;
+
+#nav_menu li a {
     display: block;
-    width: 175px;
-    padding: 1em 0;
-    text-decoration: none;
-    background-color: blue;
     color: white;
-    font-weight: bold;
-    border-right: 2px solid white;
-}
-#nav_menu ul li a.lastitem {
-    border-right: none;
-} 
-
-#nav_menu ul li a.current {
-    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
+#nav_menu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* Body styles */
+body {
+    width: 95%;
+    margin: 15px auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Article styles */
 article {
-    clear: both;
+    width: 75%;
+    float: left;
+}
+
+article h2 {
+    margin-top: 30px;
+}
+
+article p:first-of-type:first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    float: left;
+    margin-right: 5px;
+}
+
+article img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Aside styles */
+aside {
+    width: 20%;
+    float: right;
+    position: fixed;
+    top: 90px;
+    right: 0;
 }
 
 aside ol {
-    list-style: upper-roman;
+    list-style-type: upper-roman;
 }
 
 aside ul {
     list-style-type: square;
+}
+
+aside a {
+    color: blue;
+}
+
+aside a:hover {
+    color: purple;
+}
+
+/* Footer styles */
+footer {
+    clear: both;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
