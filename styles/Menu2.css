@@ -5,10 +5,13 @@
   padding: 0;
   overflow: hidden;
   background-color: blue;
+  border-bottom: 2px solid blue; /* Add border-bottom */
 }
+
 #nav_menu li {
   float: left;
 }
+
 #nav_menu li a {
   display: block;
   color: white;
@@ -16,12 +19,15 @@
   padding: 14px 16px;
   text-decoration: none;
 }
+
 #nav_menu li a:hover {
   background-color: #111;
 }
+
 #nav_menu .current {
   background-color: yellow;
 }
+
 #nav_menu li:last-child {
   border-right: none;
 }
@@ -41,6 +47,17 @@ p.fixed {
 header {
   clear: both;
   border-bottom: 2px solid blue;
+  position: relative; /* Add position relative for dotted blue columns */
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Adjust as needed */
+  left: 0;
+  right: 0;
+  height: 10px;
+  border-bottom: 2px dotted blue;
 }
 
 /* Aside ol */
@@ -51,4 +68,9 @@ aside ol {
 /* Aside ul */
 aside ul {
   list-style-type: square;
+}
+
+/* Add border-top for footer */
+footer {
+  border-top: 2px solid blue;
 }
