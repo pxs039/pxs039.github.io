@@ -34,7 +34,7 @@
 }
 
 /* Fixed position paragraph */
-.fixed {
+aside.fixed {
   width: auto;
   position: fixed;
   bottom: 35%;
