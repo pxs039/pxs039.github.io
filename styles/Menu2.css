@@ -33,7 +33,7 @@
 }
 
 /* Fixed position paragraph */
-p.fixed {
+.fixed {
   width: auto;
   position: fixed;
   bottom: 35%;
