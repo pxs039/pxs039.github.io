@@ -49,6 +49,7 @@ header {
   clear: both;
   border-bottom: 2px solid blue;
   position: relative; /* Add position relative for dotted blue columns */
+  padding-bottom: 5px; /* Add padding to the bottom */
 }
 
 header::after {
