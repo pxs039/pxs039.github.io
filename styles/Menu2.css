@@ -25,6 +25,14 @@
  #nav_menu li:last-child {
   border-right: none;
 }
+.fixed-links {
+  position: fixed;
+  bottom: 35%;
+  right: 0;
+  border: 3px solid darkblue;
+  background-color: lightskyblue;
+  padding: 1.5em;
+}
 header {
   clear: both;
   border-bottom: 2px solid blue;
@@ -40,13 +48,4 @@ aside ul {
 header {
   clear: both;
   border-bottom: 2px solid blue;
-}
-p.fixed {
-  width: auto;
-  position: fixed;
-  bottom: 35%;
-  right: 0;
-  border: 3px solid darkgreen;
-  background-color: lightgreen;
-  padding: 1.5em;
 }
