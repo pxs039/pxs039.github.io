@@ -61,7 +61,13 @@ header::after {
   height: 10px;
   border-bottom: 2px dotted blue;
 }
-
+aside {
+  width: 20%;
+  position: fixed;
+  top: 100px;
+  bottom: 0;
+  overflow: auto;
+}
 /* Aside ol */
 aside ol {
   list-style-type: upper-roman;
