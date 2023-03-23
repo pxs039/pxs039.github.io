@@ -25,6 +25,10 @@
  #nav_menu li:last-child {
   border-right: none;
 }
+header {
+  clear: both;
+  border-bottom: 2px solid blue;
+}
  /* Aside ol */
 aside ol {
   list-style-type: upper-roman;
@@ -32,6 +36,10 @@ aside ol {
  /* Aside ul */
 aside ul {
   list-style-type: square;
+}
+header {
+  clear: both;
+  border-bottom: 2px solid blue;
 }
 p.fixed {
   width: auto;
