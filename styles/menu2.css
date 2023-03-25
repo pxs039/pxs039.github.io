@@ -75,7 +75,9 @@ header::after {
   height: 10px;
   border-bottom: 2px dotted blue;
 }
-
+h2 {
+  color: blue;
+}
 /* Two columns */
 #content {
   columns: 2;
@@ -116,4 +118,5 @@ h1 {
     width: 100%;
     text-align: center;
   }
+  
   
