@@ -61,6 +61,10 @@ header::after {
   height: 10px;
   border-bottom: 2px dotted blue;
 }
+/* Two columns */
+#content {
+  columns: 2;
+}
 aside {
   width: 20%;
   position: fixed;
