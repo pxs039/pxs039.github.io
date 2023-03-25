@@ -104,19 +104,19 @@ aside ul {
   list-style-type: square;
 }
 
-/* Add border-top for footer */
-footer {
-  border-top: 2px solid blue;
-}
+
 h1 {
   color: blue;
   }
-  
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-  }
+ /* Add border-top for footer */
+footer {
+  border-top: 2px solid blue;
+} 
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
   
   
