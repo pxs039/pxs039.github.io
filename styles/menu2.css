@@ -91,3 +91,11 @@ aside ul {
 footer {
   border-top: 2px solid blue;
 }
+/* LinkedIn Link */
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: yellow;
+}
