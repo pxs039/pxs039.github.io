@@ -63,8 +63,13 @@ header::after {
 }
 /* Two columns */
 #content {
-  column-rule: 2px dotted blue; /* Add column-rule property */
+  columns: 2;
 }
+
+#content > div:first-child {
+  border-right: 2px dotted blue;
+}
+
 aside {
   width: 20%;
   position: fixed;
