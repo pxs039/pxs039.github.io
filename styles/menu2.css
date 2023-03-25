@@ -43,6 +43,30 @@ aside.fixed {
   background-color: lightskyblue;
   padding: 1.5em;
 }
+aside.fixed {
+  width: auto;
+  position: fixed;
+  bottom: 35%;
+  right: 0;
+  border: 3px solid darkblue;
+  background-color: lightskyblue;
+  padding: 1.5em;
+}
+
+aside.fixed ol {
+  list-style-type: upper-roman;
+  margin: 0;
+  padding: 0;
+}
+
+aside.fixed li {
+  margin: 10px 0;
+}
+
+aside.fixed a {
+  display: block;
+  margin: 10px 0;
+}
 
 /* Header */
 header {
