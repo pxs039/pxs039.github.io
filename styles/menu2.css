@@ -43,16 +43,6 @@ aside.fixed {
   background-color: lightskyblue;
   padding: 1.5em;
 }
-aside.fixed {
-  width: auto;
-  position: fixed;
-  bottom: 35%;
-  right: 0;
-  border: 3px solid darkblue;
-  background-color: lightskyblue;
-  padding: 1.5em;
-}
-
 aside.fixed ol {
   list-style-type: upper-roman;
   margin: 0;
