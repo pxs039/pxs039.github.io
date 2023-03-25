@@ -61,6 +61,16 @@ header::after {
   height: 10px;
   border-bottom: 2px dotted blue;
 }
+/* Add this code for h1 element */
+h1 {
+  color: blue;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
 /* Two columns */
 #content {
   columns: 2;
