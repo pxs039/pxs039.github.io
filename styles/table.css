@@ -61,10 +61,6 @@ html, body {
         border-bottom: 2px solid orangered;
       }
       
-      table.third tbody tr:nth-child(odd) {
-        background-color: lightblue;
-      }
-      
       table.third .number {
         width: 10%;
       }
