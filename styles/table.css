@@ -34,4 +34,38 @@ html, body {
     table.second thead tr:first-child{     
         border-bottom: 2px solid purple;
     }
-    
+    table.third {
+        border-collapse: collapse;
+        margin-top: 2em;
+        width: 100%;
+      }
+      
+      table.third th,
+      table.third td {
+        padding: 0.5em;
+        border: 2px solid black;
+        text-align: center;
+        vertical-align: top;
+      }
+      
+      table.third th {
+        background-color: lightgreen;
+        font-weight: bold;
+      }
+      
+      table.third tbody tr:first-child td {
+        border-top: 2px solid orangered;
+      }
+      
+      table.third tbody tr:last-child td {
+        border-bottom: 2px solid orangered;
+      }
+      
+      table.third tbody tr:nth-child(odd) {
+        background-color: lightblue;
+      }
+      
+      table.third .number {
+        width: 20%;
+      }
+        
