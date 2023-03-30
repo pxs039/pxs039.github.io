@@ -43,7 +43,7 @@ html, body {
       table.third th,
       table.third td {
         padding: 0.5em;
-        border: 2px solid black;
+        border: 2px solid orangered;
         text-align: center;
         vertical-align: top;
       }
