@@ -11,7 +11,7 @@
     height: 100%;
     text-decoration: none;
     text-align: center;
-    color: #d9534f;
+    color: #F78E1E;
     font-size: 14px;
     font-weight: bold;
     line-height: 1.5;
@@ -30,7 +30,7 @@
   }
   
   .delete-btn:hover {
-    color: #c9302c;
+    color: #F78E1E;
   }
   
   .delete-btn svg path {
@@ -38,6 +38,6 @@
   }
   
   .delete-btn:hover svg path {
-    fill: #c9302c;
+    fill: #F78E1E;
   }
   
