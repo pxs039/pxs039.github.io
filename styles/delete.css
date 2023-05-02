@@ -1,7 +1,7 @@
 .delete-btn {
   background-color: transparent;
   border: none;
-  color: #d9534f;
+  color: #F78E1E;
   padding: 0;
   text-align: left;
   text-decoration: underline;
@@ -12,11 +12,11 @@
 }
 
 .delete-btn.active {
-  color: #c9302c;
+  color: white;
   text-decoration: none;
 }
 
 .delete-btn:hover {
-  color: #c9302c;
+  color: white;
   text-decoration: none;
 }
