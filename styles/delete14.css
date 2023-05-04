@@ -113,15 +113,3 @@ body {
   background-color: #F78E1E;
   color: white;
 }
- 
-@media (max-width: 600px) {
-  .tabs {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  .tab {
-    padding: 10px 20px;
-    margin: 10px 0;
-    text-align: center;
-  }
-}
