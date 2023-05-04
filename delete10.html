@@ -1,55 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Delete Page</title>
-	<link rel="stylesheet" href="styles/delete10.css">
-</head>
-<body>
-	<header>
-		<h1>Delete</h1>
-		<input type="text" placeholder="Search...">
-	</header>
-	<nav>
-		<ul>
-			<li><a href="#faculty">Faculty</a></li>
-			<li><a href="#events">Events</a></li>
-			<li><a href="#meetings">Meetings</a></li>
-			<li><a href="#messages">Messages</a></li>
-		</ul>
-	</nav>
-	<main>
-		<section id="faculty">
-			<h2>Faculty</h2>
-			<ul>
-				<li><a href="#">Adam Smith</a></li>
-				<li><a href="#">Bob Johnson</a></li>
-				<li><a href="#">Charlie Brown</a></li>
-			</ul>
-		</section>
-		<section id="events">
-			<h2>Events</h2>
-			<ul>
-				<li><a href="#">Spring Gala</a></li>
-				<li><a href="#">Summer Picnic</a></li>
-				<li><a href="#">Fall Festival</a></li>
-			</ul>
-		</section>
-		<section id="meetings">
-			<h2>Meetings</h2>
-			<ul>
-				<li><a href="#">Board Meeting</a></li>
-				<li><a href="#">Staff Meeting</a></li>
-					<li><a href="#">Committee Meeting</a></li>
-			</ul>
-		</section>
-		<section id="messages">
-			<h2>Messages</h2>
-			<ul>
-				<li><a href="#">Inbox</a></li>
-				<li><a href="#">Sent Messages</a></li>
-				<li><a href="#">Drafts</a></li>
-			</ul>
-		</section>
-	</main>
-</body>
+  <head>
+    <title>Online Database Deletion Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Delete</h1>
+    </div>
+    <div class="tabs">
+      <button class="tablinks active" onclick="openTab(event, 'faculty')">Faculty</button>
+      <button class="tablinks" onclick="openTab(event, 'events')">Events</button>
+      <button class="tablinks" onclick="openTab(event, 'meetings')">Meetings</button>
+      <button class="tablinks" onclick="openTab(event, 'messages')">Messages</button>
+      <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+      </div>
+    </div>
+    <div id="faculty" class="tabcontent">
+      <h3>Faculty Deletion Form</h3>
+      <p>A-Z Directory:</p>
+      <ul>
+        <li>Professor 1</li>
+        <li>Professor 2</li>
+        <li>Professor 3</li>
+        <li>Professor 4</li>
+      </ul>
+    </div>
+    <div id="events" class="tabcontent">
+      <h3>Events Deletion Form</h3>
+      <p>A-Z Directory:</p>
+      <ul>
+        <li>Event 1</li>
+        <li>Event 2</li>
+        <li>Event 3</li>
+        <li>Event 4</li>
+      </ul>
+    </div>
+    <div id="meetings" class="tabcontent">
+      <h3>Meetings Deletion Form</h3>
+      <p>A-Z Directory:</p>
+      <ul>
+        <li>Meeting 1</li>
+        <li>Meeting 2</li>
+        <li>Meeting 3</li>
+        <li>Meeting 4</li>
+      </ul>
+    </div>
+    <div id="messages" class="tabcontent">
+      <h3>Messages Deletion Form</h3>
+      <p>A-Z Directory:</p>
+      <ul>
+        <li>Message 1</li>
+        <li>Message 2</li>
+        <li>Message 3</li>
+        <li>Message 4</li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
