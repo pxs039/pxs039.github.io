@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Delete Database</title>
+    <link rel="stylesheet" href="styles/delete11.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Delete</h1>
+    </div>
+
+    <div class="tabs">
+      <a href="#" class="tablinks active" onclick="openTab(event, 'faculty')">Faculty</a>
+      <a href="#" class="tablinks" onclick="openTab(event, 'events')">Events</a>
+      <a href="#" class="tablinks" onclick="openTab(event, 'meetings')">Meetings</a>
+      <a href="#" class="tablinks" onclick="openTab(event, 'messages')">Messages</a>
+      
+      <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+      </div>
+    </div>
+
+    <div id="faculty" class="tabcontent" style="display: block;">
+      <ul>
+        <li>John Doe <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+        <li>Jane Smith <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+        <li>Bob Johnson <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+        <li>Alice Brown <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+      </ul>
+    </div>
+
+    <div id="events" class="tabcontent">
+      <ul>
+        <li>Conference 2023 <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+        <li>Workshop on Machine Learning <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+        <li>Summer Camp for Kids <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+      </ul>
+    </div>
+
+    <div id="meetings" class="tabcontent">
+      <ul>
+        <li>Board Meeting <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+        <li>Weekly Team Meeting <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+        <li>Client Meeting <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+      </ul>
+    </div>
+
+    <div id="messages" class="tabcontent">
+      <ul>
+        <li>Message 1 <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+        <li>Message 2 <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+        <li>Message 3 <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+        <li>Message 4 <button class="delete-button"><img src="trashcan.png" alt="Delete"></button></li>
+      </ul>
+    </div>
+    <script>
+        function openTab(evt, tabName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(tabName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+      </script>
+</body>      
