@@ -113,3 +113,6 @@ body {
   background-color: #F78E1E;
   color: white;
 }
+.az-index {
+  display: inline-block;
+}
