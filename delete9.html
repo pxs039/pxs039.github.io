@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Delete Form</title>
+    <link rel="stylesheet" href="styles/delete8.css">
+  </head>
+  <body>
+    <h1>Delete Form</h1>
+    <form>
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="search">
+      <button type="submit">Search</button>
+    </form>
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'faculty')">Faculty</button>
+      <button class="tablinks" onclick="openTab(event, 'meetings')">Meetings</button>
+      <button class="tablinks" onclick="openTab(event, 'events')">Events</button>
+      <button class="tablinks" onclick="openTab(event, 'messages')">Message History</button>
+    </div>
+    <div id="faculty" class="tabcontent">
+    </div>
+    <div id="meetings" class="tabcontent">
+    </div>
+    <div id="events" class="tabcontent">
+    </div>
+    <div id="messages" class="tabcontent">
+    </div>
+    <div class="az-index">
+      <a href="#">A</a>
+      <a href="#">B</a>
+      <a href="#">C</a>
+      <a href="#">D</a>
+      <a href="#">E</a>
+      <a href="#">F</a>
+      <a href="#">G</a>
+      <a href="#">H</a>
+      <a href="#">I</a>
+      <a href="#">J</a>
+      <a href="#">K</a>
+      <a href="#">L</a>
+      <a href="#">M</a>
+      <a href="#">N</a>
+      <a href="#">O</a>
+      <a href="#">P</a>
+      <a href="#">Q</a>
+      <a href="#">R</a>
+      <a href="#">S</a>
+      <a href="#">T</a>
+      <a href="#">U</a>
+      <a href="#">V</a>
+      <a href="#">W</a>
+      <a href="#">X</a>
+      <a href="#">Y</a>
+      <a href="#">Z</a>
+    </div>
+    <script>
+      function openTab(evt, tabName) {
+        var tabcontent = document.getElementsByClassName("tabcontent");
+        for (var i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        var tablinks = document.getElementsByClassName("tablinks");
+        for (var i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
+  </body>
+</html>

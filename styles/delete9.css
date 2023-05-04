@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+  }
+  
+  h1 {
+    color: #F78E1E;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #F78E1E;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #D77E1E;
+  }
+  
+  #results {
+    margin-top: 20px;
+  }
+  
+  .result {
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .result h2 {
+    margin-top: 0;
+  }
+  
+  .result p {
+    margin-bottom: 5px;
+  }
+  
+  .result button {
+    background-color: #F78E1E;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .result button:hover {
+    background-color: #D77E1E;
+  }
+  
+  .az-index {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .az-index a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #F78E1E;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .az-index a:hover {
+    background-color: #F78E1E;
+    color: white;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 2px solid #F78E1E;
+  }
+  
+  .tab {
+    padding: 10px;
+    font-weight: bold;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    color: #F78E1E;
+    border-bottom: 2px solid #F78E1E;
+  }
+  
+  .tab:hover {
+    color: #555;
+  }
+  
+  @media (max-width: 600px) {
+    .tabs {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .tab {
+      padding: 10px 20px;
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+  
