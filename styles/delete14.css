@@ -93,6 +93,7 @@ body {
 .delete-button:hover img {
   opacity: 1;
 }
+
 .az-index {
   display: flex;
   justify-content: center;
@@ -113,6 +114,20 @@ body {
   background-color: #F78E1E;
   color: white;
 }
-.az-index {
-  display: inline-block;
+
+@media screen and (max-width: 600px) {
+  .search-container {
+    float: none;
+  }
+  .tabs a, .search-container input[type=text], .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .tabs {
+    overflow: auto;
+  }
 }
